@@ -36,7 +36,7 @@ Write-Host "Searching for enabled users inactive since before $($CutoffDate.ToSt
 
 $params = @{
     Filter     = { Enabled -eq $true -and LastLogonDate -lt $CutoffDate }
-    Properties = @('LastLogonDate','SamAccountName','DistinguishedName','Description','Name')
+    Properties = @('ObjectGUID','LastLogonDate','SamAccountName','DistinguishedName','Description','Name')
 }
 if ($SearchBase) { $params.SearchBase = $SearchBase }
 
@@ -59,8 +59,8 @@ $staleUsers |
 
 foreach ($user in $staleUsers) {
     try {
-        Disable-ADAccount -Identity $user.DistinguishedName -ErrorAction Stop
-        Set-ADUser -Identity $user.DistinguishedName -Description $DisableComment -ErrorAction Stop
+        Disable-ADAccount -Identity $user.ObjectGUID -ErrorAction Stop
+        Set-ADUser -Identity $user.ObjectGUID -Description $DisableComment -ErrorAction Stop
         Write-Host "Disabled + commented: $($user.SamAccountName)" -ForegroundColor Magenta
     }
     catch {
