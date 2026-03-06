@@ -17,7 +17,7 @@ threshold, disables them, and writes the Description field as:
 param(
     [int]$DaysInactive = 90,
     [string]$SearchBase = $null,
-    [string]$LogDirectory = 'C:\Logs\AD',
+    [string]$LogDirectory = 'C:\Logs\AD', # Change to desired location
     [string[]]$ExcludedSamAccountNames = @(
         'Administrator',
         'Guest',
