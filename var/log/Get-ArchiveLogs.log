@@ -1,0 +1,1020 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260522220047
+Username: BK_PC\bklet
+RunAs User: BK_PC\bklet
+Configuration Name: 
+Machine: BK_PC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "d:\code_utils\Microsoft VS Code\072586267e\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 29648
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+No Domain Detected... Remaining Local....
+Looking for logs in \\localhost\D$\code_projects\test_env\logs_to_archive\
+Looking for logs matching filter: Archive-Security
+Looking for logs matching filter: Archive-Application
+Looking for logs matching filter: Archive-System
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(2).evtx
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test.evtx
+**********************
+Windows PowerShell transcript end
+End time: 20260522220047
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260522221105
+Username: BK_PC\bklet
+RunAs User: BK_PC\bklet
+Configuration Name: 
+Machine: BK_PC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "d:\code_utils\Microsoft VS Code\072586267e\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 29648
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+No Domain Detected... Remaining Local....
+Looking for logs in \\localhost\D$\code_projects\test_env\logs_to_archive\
+Looking for logs matching filter: Archive-Security
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(2).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test.evtx
+Looking for logs matching filter: Archive-Application
+Looking for logs matching filter: Archive-System
+**********************
+Windows PowerShell transcript end
+End time: 20260522221105
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260522221753
+Username: BK_PC\bklet
+RunAs User: BK_PC\bklet
+Configuration Name: 
+Machine: BK_PC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "d:\code_utils\Microsoft VS Code\072586267e\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 29648
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+No Domain Detected... Remaining Local....
+Looking for logs in \\localhost\D$\code_projects\test_env\logs_to_archive\
+Looking for logs matching filter: Archive-Security
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(2).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test.evtx
+Looking for logs matching filter: Archive-Application
+Looking for logs matching filter: Archive-System
+**********************
+Windows PowerShell transcript end
+End time: 20260522221753
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260522221821
+Username: BK_PC\bklet
+RunAs User: BK_PC\bklet
+Configuration Name: 
+Machine: BK_PC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "d:\code_utils\Microsoft VS Code\072586267e\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 29648
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+No Domain Detected... Remaining Local....
+Looking for logs in \\localhost\D$\code_projects\test_env\logs_to_archive\
+Looking for logs matching filter: Archive-Security
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(2).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test.evtx
+Looking for logs matching filter: Archive-Application
+Looking for logs matching filter: Archive-System
+
+
+
+**********************
+Windows PowerShell transcript end
+End time: 20260522221821
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260522221957
+Username: BK_PC\bklet
+RunAs User: BK_PC\bklet
+Configuration Name: 
+Machine: BK_PC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "d:\code_utils\Microsoft VS Code\072586267e\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 29648
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+No Domain Detected... Remaining Local....
+Looking for logs in \\localhost\D$\code_projects\test_env\logs_to_archive\
+Looking for logs matching filter: Archive-Security
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(2).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test.evtx
+Looking for logs matching filter: Archive-Application
+Looking for logs matching filter: Archive-System
+        destination :: Destination Dir  (drive:\path or \\server\share\path).
+               /MIR :: Mirror a complete directory tree.
+
+    For more usage information run ROBOCOPY /?
+
+
+****  /MIR can DELETE files as well as copy them !
+
+
+**********************
+Windows PowerShell transcript end
+End time: 20260522221957
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260522222116
+Username: BK_PC\bklet
+RunAs User: BK_PC\bklet
+Configuration Name: 
+Machine: BK_PC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "d:\code_utils\Microsoft VS Code\072586267e\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 29648
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+No Domain Detected... Remaining Local....
+Looking for logs in \\localhost\D$\code_projects\test_env\logs_to_archive\
+Looking for logs matching filter: Archive-Security
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(2).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test.evtx
+Looking for logs matching filter: Archive-Application
+Looking for logs matching filter: Archive-System
+
+
+
+**********************
+Windows PowerShell transcript end
+End time: 20260522222116
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260522222259
+Username: BK_PC\bklet
+RunAs User: BK_PC\bklet
+Configuration Name: 
+Machine: BK_PC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "d:\code_utils\Microsoft VS Code\072586267e\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 29648
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+No Domain Detected... Remaining Local....
+Looking for logs in \\localhost\D$\code_projects\test_env\logs_to_archive\
+Looking for logs matching filter: Archive-Security
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(2).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test.evtx
+Looking for logs matching filter: Archive-Application
+Looking for logs matching filter: Archive-System
+
+
+
+**********************
+Windows PowerShell transcript end
+End time: 20260522222259
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260522222330
+Username: BK_PC\bklet
+RunAs User: BK_PC\bklet
+Configuration Name: 
+Machine: BK_PC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "d:\code_utils\Microsoft VS Code\072586267e\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 29648
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+No Domain Detected... Remaining Local....
+Looking for logs in \\localhost\D$\code_projects\test_env\logs_to_archive\
+Looking for logs matching filter: Archive-Security
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(2).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test.evtx
+Looking for logs matching filter: Archive-Application
+Looking for logs matching filter: Archive-System
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(2).evtx
+
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test.evtx
+
+**********************
+Windows PowerShell transcript end
+End time: 20260522222330
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260522222533
+Username: BK_PC\bklet
+RunAs User: BK_PC\bklet
+Configuration Name: 
+Machine: BK_PC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "d:\code_utils\Microsoft VS Code\072586267e\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 29648
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+No Domain Detected... Remaining Local....
+Looking for logs in \\localhost\D$\code_projects\test_env\logs_to_archive\
+Looking for logs matching filter: Archive-Security
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(2).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test.evtx
+Looking for logs matching filter: Archive-Application
+Looking for logs matching filter: Archive-System
+
+
+
+**********************
+Windows PowerShell transcript end
+End time: 20260522222533
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260522222546
+Username: BK_PC\bklet
+RunAs User: BK_PC\bklet
+Configuration Name: 
+Machine: BK_PC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "d:\code_utils\Microsoft VS Code\072586267e\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 29648
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+No Domain Detected... Remaining Local....
+Looking for logs in \\localhost\D$\code_projects\test_env\logs_to_archive\
+Looking for logs matching filter: Archive-Security
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(2).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test.evtx
+Looking for logs matching filter: Archive-Application
+Looking for logs matching filter: Archive-System
+
+
+
+**********************
+Windows PowerShell transcript end
+End time: 20260522222546
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260522222721
+Username: BK_PC\bklet
+RunAs User: BK_PC\bklet
+Configuration Name: 
+Machine: BK_PC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "d:\code_utils\Microsoft VS Code\072586267e\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 29648
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+No Domain Detected... Remaining Local....
+Looking for logs in \\localhost\D$\code_projects\test_env\logs_to_archive\
+Looking for logs matching filter: Archive-Security
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(2).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test.evtx
+Looking for logs matching filter: Archive-Application
+Looking for logs matching filter: Archive-System
+
+
+
+**********************
+Windows PowerShell transcript end
+End time: 20260522222721
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260522222732
+Username: BK_PC\bklet
+RunAs User: BK_PC\bklet
+Configuration Name: 
+Machine: BK_PC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "d:\code_utils\Microsoft VS Code\072586267e\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 29648
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+No Domain Detected... Remaining Local....
+Looking for logs in \\localhost\D$\code_projects\test_env\logs_to_archive\
+Looking for logs matching filter: Archive-Security
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(2).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test.evtx
+Looking for logs matching filter: Archive-Application
+Looking for logs matching filter: Archive-System
+
+
+
+**********************
+Windows PowerShell transcript end
+End time: 20260522222732
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260522222838
+Username: BK_PC\bklet
+RunAs User: BK_PC\bklet
+Configuration Name: 
+Machine: BK_PC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "d:\code_utils\Microsoft VS Code\072586267e\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 29648
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+No Domain Detected... Remaining Local....
+Looking for logs in \\localhost\D$\code_projects\test_env\logs_to_archive\
+Looking for logs matching filter: Archive-Security
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(2).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test.evtx
+Looking for logs matching filter: Archive-Application
+Looking for logs matching filter: Archive-System
+
+
+
+**********************
+Windows PowerShell transcript end
+End time: 20260522222838
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260522222845
+Username: BK_PC\bklet
+RunAs User: BK_PC\bklet
+Configuration Name: 
+Machine: BK_PC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "d:\code_utils\Microsoft VS Code\072586267e\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 29648
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+No Domain Detected... Remaining Local....
+Looking for logs in \\localhost\D$\code_projects\test_env\logs_to_archive\
+Looking for logs matching filter: Archive-Security
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(2).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test.evtx
+Looking for logs matching filter: Archive-Application
+Looking for logs matching filter: Archive-System
+
+
+
+**********************
+Windows PowerShell transcript end
+End time: 20260522222846
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260522223030
+Username: BK_PC\bklet
+RunAs User: BK_PC\bklet
+Configuration Name: 
+Machine: BK_PC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "d:\code_utils\Microsoft VS Code\072586267e\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 29648
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+No Domain Detected... Remaining Local....
+Looking for logs in \\localhost\D$\code_projects\test_env\logs_to_archive\
+Looking for logs matching filter: Archive-Security
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(2).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test.evtx
+Looking for logs matching filter: Archive-Application
+Looking for logs matching filter: Archive-System
+
+
+
+**********************
+Windows PowerShell transcript end
+End time: 20260522223030
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260522223336
+Username: BK_PC\bklet
+RunAs User: BK_PC\bklet
+Configuration Name: 
+Machine: BK_PC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "d:\code_utils\Microsoft VS Code\072586267e\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 29648
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+No Domain Detected... Remaining Local....
+Looking for logs in \\localhost\D$\code_projects\test_env\logs_to_archive\
+Looking for logs matching filter: Archive-Security
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(2).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test.evtx
+Looking for logs matching filter: Archive-Application
+Looking for logs matching filter: Archive-System
+
+
+
+**********************
+Windows PowerShell transcript end
+End time: 20260522223336
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260522223431
+Username: BK_PC\bklet
+RunAs User: BK_PC\bklet
+Configuration Name: 
+Machine: BK_PC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "d:\code_utils\Microsoft VS Code\072586267e\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 29648
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+No Domain Detected... Remaining Local....
+Looking for logs in \\localhost\D$\code_projects\test_env\logs_to_archive\
+Looking for logs matching filter: Archive-Security*.evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(2).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test.evtx
+Looking for logs matching filter: Archive-Application*.evtx
+Looking for logs matching filter: Archive-System*.evtx
+
+
+
+**********************
+Windows PowerShell transcript end
+End time: 20260522223432
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260522223443
+Username: BK_PC\bklet
+RunAs User: BK_PC\bklet
+Configuration Name: 
+Machine: BK_PC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "d:\code_utils\Microsoft VS Code\072586267e\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 29648
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+No Domain Detected... Remaining Local....
+Looking for logs in \\localhost\D$\code_projects\test_env\logs_to_archive\
+Looking for logs matching filter: Archive-Security*.evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(2).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test.evtx
+Looking for logs matching filter: Archive-Application*.evtx
+Looking for logs matching filter: Archive-System*.evtx
+
+
+
+**********************
+Windows PowerShell transcript end
+End time: 20260522223443
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260522223702
+Username: BK_PC\bklet
+RunAs User: BK_PC\bklet
+Configuration Name: 
+Machine: BK_PC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "d:\code_utils\Microsoft VS Code\072586267e\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 29648
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+No Domain Detected... Remaining Local....
+Looking for logs in \\localhost\D$\code_projects\test_env\logs_to_archive\
+Looking for logs matching filter: Archive-Security*.evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(2).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test.evtx
+Looking for logs matching filter: Archive-Application*.evtx
+Looking for logs matching filter: Archive-System*.evtx
+
+
+
+**********************
+Windows PowerShell transcript end
+End time: 20260522223702
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260522224006
+Username: BK_PC\bklet
+RunAs User: BK_PC\bklet
+Configuration Name: 
+Machine: BK_PC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "d:\code_utils\Microsoft VS Code\072586267e\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 29648
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+No Domain Detected... Remaining Local....
+Looking for logs in \\localhost\D$\code_projects\test_env\logs_to_archive\
+Looking for logs matching filter: Archive-Security*.evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(2).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test.evtx
+Looking for logs matching filter: Archive-Application*.evtx
+Looking for logs matching filter: Archive-System*.evtx
+
+
+
+**********************
+Windows PowerShell transcript end
+End time: 20260522224006
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260522224120
+Username: BK_PC\bklet
+RunAs User: BK_PC\bklet
+Configuration Name: 
+Machine: BK_PC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "d:\code_utils\Microsoft VS Code\072586267e\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 29648
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+No Domain Detected... Remaining Local....
+Looking for logs in \\localhost\D$\code_projects\test_env\logs_to_archive\
+Looking for logs matching filter: Archive-Security*.evtx
+Looking for logs matching filter: Archive-Application*.evtx
+Looking for logs matching filter: Archive-System*.evtx
+Exception calling "AddRange" with "1" argument(s): "Collection cannot be null.
+Parameter name: c"
+At D:\code_projects\personal_git\powershell_toolkit\Get-ArchiveLogs.ps1:111 char:5
++     $masterPathCollection.AddRange($returnedResults) | Out-Null
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : ArgumentNullException
+Exception calling "AddRange" with "1" argument(s): "Collection cannot be null.
+Parameter name: c"
+At D:\code_projects\personal_git\powershell_toolkit\Get-ArchiveLogs.ps1:111 char:5
++     $masterPathCollection.AddRange($returnedResults) | Out-Null
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : ArgumentNullException
+
+**********************
+Windows PowerShell transcript end
+End time: 20260522224120
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260522224144
+Username: BK_PC\bklet
+RunAs User: BK_PC\bklet
+Configuration Name: 
+Machine: BK_PC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "d:\code_utils\Microsoft VS Code\072586267e\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 29648
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+No Domain Detected... Remaining Local....
+Looking for logs in \\localhost\D$\code_projects\test_env\logs_to_archive\
+Looking for logs matching filter: Archive-Security*.evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(2).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test.evtx
+Looking for logs matching filter: Archive-Application*.evtx
+Looking for logs matching filter: Archive-System*.evtx
+
+
+
+**********************
+Windows PowerShell transcript end
+End time: 20260522224144
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260522224442
+Username: BK_PC\bklet
+RunAs User: BK_PC\bklet
+Configuration Name: 
+Machine: BK_PC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "d:\code_utils\Microsoft VS Code\072586267e\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 29648
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+No Domain Detected... Remaining Local....
+Looking for logs in \\localhost\D$\code_projects\test_env\logs_to_archive\
+Looking for logs matching filter: Archive-Security*.evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1) - Copy.evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(2).evtx
+Looking for logs matching filter: Archive-Application*.evtx
+Looking for logs matching filter: Archive-System*.evtx
+
+
+
+**********************
+Windows PowerShell transcript end
+End time: 20260522224443
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260522224749
+Username: BK_PC\bklet
+RunAs User: BK_PC\bklet
+Configuration Name: 
+Machine: BK_PC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "d:\code_utils\Microsoft VS Code\072586267e\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 29648
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+No Domain Detected... Remaining Local....
+Looking for logs in \\localhost\D$\code_projects\test_env\logs_to_archive\
+Looking for logs matching filter: Archive-Security*.evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1) - Copy.evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+Looking for logs matching filter: Archive-Application*.evtx
+Looking for logs matching filter: Archive-System*.evtx
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1) - Copy.evtx
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1) - Copy.evtx
+
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+
+**********************
+Windows PowerShell transcript end
+End time: 20260522224808
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260522224853
+Username: BK_PC\bklet
+RunAs User: BK_PC\bklet
+Configuration Name: 
+Machine: BK_PC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "d:\code_utils\Microsoft VS Code\072586267e\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 29648
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+No Domain Detected... Remaining Local....
+Looking for logs in \\localhost\D$\code_projects\test_env\logs_to_archive\
+Looking for logs matching filter: Archive-Security*.evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1) - Copy.evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+Looking for logs matching filter: Archive-Application*.evtx
+Looking for logs matching filter: Archive-System*.evtx
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1) - Copy.evtx
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1) - Copy.evtx
+
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+
+**********************
+Windows PowerShell transcript end
+End time: 20260522224903
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260522225024
+Username: BK_PC\bklet
+RunAs User: BK_PC\bklet
+Configuration Name: 
+Machine: BK_PC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "d:\code_utils\Microsoft VS Code\072586267e\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 29648
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+No Domain Detected... Remaining Local....
+Looking for logs in \\localhost\D$\code_projects\test_env\logs_to_archive\
+Looking for logs matching filter: Archive-Security*.evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1) - Copy.evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+Looking for logs matching filter: Archive-Application*.evtx
+Looking for logs matching filter: Archive-System*.evtx
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1) - Copy.evtx
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1) - Copy.evtx
+
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+
+**********************
+Windows PowerShell transcript end
+End time: 20260522225024
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260522225339
+Username: BK_PC\bklet
+RunAs User: BK_PC\bklet
+Configuration Name: 
+Machine: BK_PC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "d:\code_utils\Microsoft VS Code\072586267e\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 29648
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+No Domain Detected... Remaining Local....
+Looking for logs in \\localhost\D$\code_projects\test_env\logs_to_archive\
+Looking for logs matching filter: Archive-Security*.evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1) - Copy - Copy.evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1) - Copy.evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(2) - Copy.evtx
+Looking for logs matching filter: Archive-Application*.evtx
+Looking for logs matching filter: Archive-System*.evtx
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1) - Copy - Copy.evtx
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1) - Copy - Copy.evtx
+
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1) - Copy.evtx
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1) - Copy.evtx
+
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+PS>TerminatingError(Rename-Item): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Cannot create a file when that file already exists.
+"
+>> TerminatingError(Rename-Item): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Cannot create a file when that file already exists.
+"
+>> TerminatingError(Rename-Item): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Cannot create a file when that file already exists.
+"
+>> TerminatingError(Rename-Item): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Cannot create a file when that file already exists.
+"
+The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Cannot create a file when that file already exists.
+rename-item : Cannot create a file when that file already exists.
+
+At D:\code_projects\personal_git\powershell_toolkit\Get-ArchiveLogs.ps1:65 char:31
++ ... edFile    = rename-item -Path $file -NewName "$($env:COMPUTERNAME)_$f ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (\\localhost\D$\...gs_test(1).evtx:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+
+]633;D;1]633;A]633;P;Cwd=D:\x5ccode_projects\x5cpersonal_git\x5cpowershell_toolkitPS D:\code_projects\personal_git\powershell_toolkit> ]633;B
+PS>.\Get-ArchiveLogs.ps1
+Transcript started, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+No Domain Detected... Remaining Local....
+Looking for logs in \\localhost\D$\code_projects\test_env\logs_to_archive\
+Looking for logs matching filter: Archive-Security*.evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1) - Copy - Copy.evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1) - Copy.evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(2) - Copy.evtx
+Looking for logs matching filter: Archive-Application*.evtx
+Looking for logs matching filter: Archive-System*.evtx
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1) - Copy - Copy.evtx
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1) - Copy - Copy.evtx
+
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1) - Copy.evtx
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1) - Copy.evtx
+
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(2) - Copy.evtx
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(2) - Copy.evtx
+
+Transcript stopped, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+]633;D;0]633;A]633;P;Cwd=D:\x5ccode_projects\x5cpersonal_git\x5cpowershell_toolkitPS D:\code_projects\personal_git\powershell_toolkit> ]633;B
+PS>clear
+]633;D;0]633;A]633;P;Cwd=D:\x5ccode_projects\x5cpersonal_git\x5cpowershell_toolkitPS D:\code_projects\personal_git\powershell_toolkit> ]633;B
+PS>.\Get-ArchiveLogs.ps1
+Transcript started, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+No Domain Detected... Remaining Local....
+Looking for logs in \\localhost\D$\code_projects\test_env\logs_to_archive\
+Looking for logs matching filter: Archive-Security*.evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1) - Copy - Copy.evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1) - Copy.evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+Path Found: \\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(2) - Copy.evtx
+Looking for logs matching filter: Archive-Application*.evtx
+Looking for logs matching filter: Archive-System*.evtx
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1) - Copy - Copy.evtx
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1) - Copy - Copy.evtx
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         1         1         0         0         0
+   Files :         1         1         0         0         0         0
+   Bytes :         0         0         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Friday, May 22, 2026 10:55:20 PM
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1) - Copy.evtx
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1) - Copy.evtx
+
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(1).evtx
+
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(2) - Copy.evtx
+\\localhost\D$\code_projects\test_env\logs_to_archive\Archive-Security_logs_test(2) - Copy.evtx
+
+Transcript stopped, output file is D:\code_projects\personal_git\powershell_toolkit\var\log\Get-ArchiveLogs.log
+]633;D;0]633;A]633;P;Cwd=D:\x5ccode_projects\x5cpersonal_git\x5cpowershell_toolkitPS D:\code_projects\personal_git\powershell_toolkit> ]633;B
+PS>git add .
+
+]633;D;0]633;A]633;P;Cwd=D:\x5ccode_projects\x5cpersonal_git\x5cpowershell_toolkitPS D:\code_projects\personal_git\powershell_toolkit> ]633;B
+PS>git add .
+
+]633;D;0]633;A]633;P;Cwd=D:\x5ccode_projects\x5cpersonal_git\x5cpowershell_toolkitPS D:\code_projects\personal_git\powershell_toolkit> ]633;B
+PS>git add .
+
+]633;D;0]633;A]633;P;Cwd=D:\x5ccode_projects\x5cpersonal_git\x5cpowershell_toolkitPS D:\code_projects\personal_git\powershell_toolkit> ]633;B
