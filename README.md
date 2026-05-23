@@ -3,7 +3,7 @@
 The powershell toolkit is a compilation of scripts developed to support certain functions that could be  
 automated.  
 
-## Disable-InactiveADUsers90Days.ps1  
+## Disable-InactiveADUsers90Days.ps1 (Cant fully test due to lack of domain currently)  
 ### Script Summary  
 Script to disable users and apply a comment to them that have been inactive for over 90 days.  
 
@@ -18,7 +18,7 @@ Script to disable users and apply a comment to them that have been inactive for 
   * Allows for "Logon as Service"
   * Allows for "Logon as Batch Job"
 
-## Get-ArchiveLogs.ps1
+## Get-ArchiveLogs.ps1 (Cant fully test due to lack of domain currently)  
 ### Script Summary  
 Script to search local and remote hosts on or off a domain for archived security, application, and  
 security logs. Once identified it takes a UNC of that log and stores it for movement once collection  
@@ -40,3 +40,4 @@ Once complete, the script will compress the items in the final directory.
 - The system/domain allows...
   * Allows for "Logon as Service"
   * Allows for "Logon as Batch Job"
+  * Allows for navigation via UNC
