@@ -20,6 +20,7 @@ param(
     [string]$dte_day   = (Get-Date -Format "dd")
 )
 
+# Function user ActiveDirectory module to get a list of enabled windows hosts in the domain.
 Function Get-Hosts {
     $dcSession = New-PSSession -CopmuterName $env:LOGONSERVER -ErrorAction SilentlyContinue
     if ($dcSession -ne $null) {
@@ -34,6 +35,7 @@ Function Get-Hosts {
     }
 }
 
+# Function to find archived logs based on a defined filter in passed remote host directory.
 Function Get-ArchiveLogs {
     param([string]$remoteHostLogDirectory)
 
@@ -52,6 +54,7 @@ Function Get-ArchiveLogs {
     Return $filterResults  
 }
 
+# Function to move logs using robocopy. We rename the original archive file to prevent confliction in the destination directory.
 Function Move-ArchiveLogs {
     param(
         [System.Collections.ArrayList]$pathCollection,
@@ -59,21 +62,33 @@ Function Move-ArchiveLogs {
         [string]$roboCopyLogLoc
     )
     foreach ($file in $pathCollection) {
-        if ($file -ne $null) {
-            write-host $file
-            $origFileName   = Split-Path -Path $file -Leaf
-            # Rename file to prevent confliction
-            $renamedFile    = rename-item -Path $file -NewName "$($env:COMPUTERNAME)_$origFileName" -ErrorAction Stop -PassThru
-            # Breakout file path and name for robocopy
-            $filePath       = Split-Path -Path $renamedFile -Parent
-            $fileName       = Split-Path -Path $renamedFile -Leaf
-            
-            write-host $file
-            robocopy $filePath $logRetentionDir $fileName /MOV /MT /R:3 /W:5 /LOG:$roboCopyLogLoc  /TEE
+        try {
+            if ($file -ne $null) {
+                write-host $file
+                $origFileName   = Split-Path -Path $file -Leaf
+                # Rename file to prevent confliction
+                $renamedFile    = rename-item -Path $file -NewName "$($env:COMPUTERNAME)_$origFileName" -ErrorAction Stop -PassThru
+                # Breakout file path and name for robocopy
+                $filePath       = Split-Path -Path $renamedFile -Parent
+                $fileName       = Split-Path -Path $renamedFile -Leaf
+
+                write-host $file
+                robocopy $filePath $logRetentionDir $fileName /MOV /MT /R:3 /W:5 /LOG+:$roboCopyLogLoc  /TEE
+            }
+        } catch {
+            Write-Host "Error moving file: $file. Error Message: $_" -ForegroundColor Red
         }
     }
 }
 
+# Function to compress logs retained with compact.exe
+Function Compress-ArchivedLogs {
+    param([String] $logRetentionDir)
+
+    Get-ChildItem -Path $logRetentionDir -Filter "*.evtx" | ForEach-Object {
+        compact /c $_.FullName
+    }
+}
 
 ########################################################## Main Script Body ##########################################################
 
@@ -84,7 +99,7 @@ Function Move-ArchiveLogs {
 [string]$remoteHostLogDirectory                                 = '\\localhost\D$\code_projects\test_env\logs_to_archive\' # Test Dir
 [string]$sciptLogLoc                                            = "$($PsScriptRoot)\var\log\Get-ArchiveLogs.log"
 [string]$roboCopyLogLoc                                         = "$($PsScriptRoot)\var\log\robocopy_archivelogs.log"
-[System.Collections.ArrayList]$masterPathCollection             = [System.Collections.ArrayList]::new()
+$masterPathCollection                                           = [System.Collections.ArrayList]::new()
 
 # Ensure log retention directory exists
 if (-not (Test-Path -Path $sciptLogLoc)) {
@@ -97,6 +112,7 @@ if (-not (Test-Path -Path $logRetentionDir)) {
     New-Item -ItemType Directory -Path $logRetentionDir | Out-Null
 }
 
+# Domain Check - If we're part of a domain, we'll loop through hosts and look for logs, if not we'll just check locally and move any logs we find
 if ((Get-CimInstance Win32_ComputerSystem).PartOfDomain) {
     $hosts = Get-Hosts
     foreach ($hostname in $hosts) {
@@ -104,8 +120,11 @@ if ((Get-CimInstance Win32_ComputerSystem).PartOfDomain) {
         Write-Host "Checking $hostname for archived Logs..." -ForegroundColor Blue
         $remoteHostLogDirectory = $remoteHostLogDirectory.Replace("localhost", $hostname)
         $returnedResults = Get-ArchiveLogs -remoteHostLogDirectory $remoteHostLogDirectory
-        if ($returnedResults.Count -ne 0) {
-            $masterPathCollection.AddRange($returnedResults) | Out-Null
+        if ($returnedResults.Count -gt 1) {
+           $masterPathCollection.AddRange($returnedResults) | Out-Null
+        }
+        elseif ($returnedResults.Count -eq 1) {
+           $masterPathCollection.Add($returnedResults) | Out-Null
         }
         else {
             Write-Host "No archived logs found in $remoteHostLogDirectory" -ForegroundColor Yellow
@@ -116,8 +135,12 @@ else {
     Write-Host "No Domain Detected... Remaining Local...." -ForegroundColor Green
     Write-Host "Looking for logs in $remoteHostLogDirectory" -ForegroundColor Blue
     $returnedResults = Get-ArchiveLogs -remoteHostLogDirectory $remoteHostLogDirectory
-    if ($returnedResults.Count -ne 0) {
+    write-host $returnedResults.Count
+    if ($returnedResults.Count -gt 1) {
        $masterPathCollection.AddRange($returnedResults) | Out-Null
+    }
+    elseif ($returnedResults.Count -eq 1) {
+       $masterPathCollection.Add($returnedResults) | Out-Null
     }
     else {
         Write-Host "No archived logs found in $remoteHostLogDirectory" -ForegroundColor Yellow
@@ -125,6 +148,8 @@ else {
         exit 0
     }
 }
+
+# Move logs if we have any paths collected in our master collection
 if ($masterPathCollection.Count -ne 0) {
     Move-ArchiveLogs -pathCollection $masterPathCollection -logRetentionDir $logRetentionDir -roboCopyLogLoc $roboCopyLogLoc
 }
@@ -133,5 +158,7 @@ else{
     Write-Host "Exiting... "
     exit 0
 }
+
+Compress-ArchivedLogs -logRetentionDir $logRetentionDir
 
 stop-transcript
