@@ -85,6 +85,9 @@ Function Move-ArchiveLogs {
 Function Compress-ArchivedLogs {
     param([String] $logRetentionDir)
 
+    New-Item -ItemType File -Path "$logRetentionDir\README_BEFORE_OPENING_LOGS.txt" -Value `
+        "These logs have been compressed using compact.exe. To open these logs, you will need to decompress them using the following command: compact /u <filename.evtx>" `
+        -ErrorAction SilentlyContinue
     Get-ChildItem -Path $logRetentionDir -Filter "*.evtx" | ForEach-Object {
         compact /c $_.FullName
     }
