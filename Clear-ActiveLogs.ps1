@@ -40,11 +40,12 @@ Function Get-Logs {
         [string]$remoteHostLogDirectory
     )
 
-    $filterResults = [System.Collections.ArrayList]::new()
-    $logFilter = @("Security", "Application", "System")
+    $filterResults  = [System.Collections.ArrayList]::new()
+    $logFilter      = @("Security", "Application", "System")
+    $seconds        = (Get-Date -Format "ss")
 
     foreach ($log in $logFilter) {
-        $clearedFile= "$($remoteHostLogDirectory)\$($env:COMPUTERNAME)-Cleared-$log-$($dte_year)-$($dte_month)-$($dte_day).evtx"
+        $clearedFile= "$($remoteHostLogDirectory)\$($env:COMPUTERNAME)-Cleared-$log-$($dte_year)-$($dte_month)-$($dte_day)-$($seconds).evtx"
         Write-Host "Attempting to clear $log within $($remoteHostLogDirectory)" -ForegroundColor Yellow
         wevtutil cl $log /bu:$clearedFile | Out-Null
         $filterResults.Add($clearedFile) | Out-Null
@@ -66,7 +67,7 @@ Function Move-Logs {
 
                 $filePath       = Split-Path -Path $file -Parent
                 $fileName       = Split-Path -Path $file -Leaf
-                robocopy $filePath $logRetentionDir $fileName /MOV /MT /R:3 /W:5 /LOG+:$roboCopyLogLoc  /TEE
+                robocopy $filePath $logRetentionDir $fileName /MOV /MT /XC /R:3 /W:5 /LOG+:$roboCopyLogLoc  /TEE
             }
         } catch {
             Write-Host "Error moving file: $file. Error Message: $_" -ForegroundColor Red

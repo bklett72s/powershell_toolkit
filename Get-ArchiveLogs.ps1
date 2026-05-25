@@ -41,6 +41,7 @@ Function Get-ArchiveLogs {
 
     $filterResults = [System.Collections.ArrayList]::new()
     $archiveLogFilter = @("Archive-Security*.evtx", "Archive-Application*.evtx", "Archive-System*.evtx")
+
     foreach ($filter in $archiveLogFilter) {
         write-host "Looking for logs matching filter: $filter" -ForegroundColor Yellow
         $logFiles = Get-ChildItem -Path $remoteHostLogDirectory -Filter $filter -ErrorAction SilentlyContinue | Select-Object -ExpandProperty FullName
@@ -73,7 +74,7 @@ Function Move-ArchiveLogs {
                 $fileName       = Split-Path -Path $renamedFile -Leaf
 
                 write-host $file
-                robocopy $filePath $logRetentionDir $fileName /MOV /MT /R:3 /W:5 /LOG+:$roboCopyLogLoc  /TEE
+                robocopy $filePath $logRetentionDir $fileName /MOV /MT /XC /R:3 /W:5 /LOG+:$roboCopyLogLoc  /TEE
             }
         } catch {
             Write-Host "Error moving file: $file. Error Message: $_" -ForegroundColor Red
