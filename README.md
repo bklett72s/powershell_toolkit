@@ -56,9 +56,9 @@ Once complete, the script will compress the items in the final directory.
 ### Script Assumptions 
 - The account running the script has...
   * Permission to search remote host directories via UNC
-  * Permission to read archived logs
-  * Permission to copy archived logs
-  * Permission to delete archived logs
+  * Permission to read logs
+  * Permission to copy logs
+  * Permission to delete/clear logs
   * Permission to place logs in collection/retention area
   * Permission to create log retention area if not made
   * Is defined in "Logon as Service" and "Logon as Batch Job"
