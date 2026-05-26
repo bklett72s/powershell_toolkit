@@ -22,10 +22,11 @@ param(
 
 # Function user ActiveDirectory module to get a list of enabled windows hosts in the domain.
 Function Get-Hosts {
+    $dc = $env:LOGONSERVER -replace '^\\\\',''
     $dcSession = New-PSSession -CopmuterName $env:LOGONSERVER -ErrorAction SilentlyContinue
     if ($dcSession -ne $null) {
         Import-Module ActiveDirectory -PSSession $dcSession -ErrorAction Stop
-        $hosts = Get-ADComputer -Filter 'OperatingSystem -like "*Windows*" AND Enabled -eq $true' -Properties Name | Select-Object -ExpandProperty Name
+        $hosts = Get-ADComputer -Filter 'OperatingSystem -like "*Windows*" -and Enabled -eq $true' -Properties Name | Select-Object -ExpandProperty Name
         
         Return $hosts
     }
@@ -42,12 +43,24 @@ Function Get-Logs {
 
     $filterResults  = [System.Collections.ArrayList]::new()
     $logFilter      = @("Security", "Application", "System")
-    $seconds        = (Get-Date -Format "ss")
+    $stamp        = (Get-Date -Format "HHmmss")
 
     foreach ($log in $logFilter) {
-        $clearedFile= "$($remoteHostLogDirectory)\$($env:COMPUTERNAME)-Cleared-$log-$($dte_year)-$($dte_month)-$($dte_day)-$($seconds).evtx"
+        $clearedFile= "$($remoteHostLogDirectory)\$($env:COMPUTERNAME)-Cleared-$log-$($dte_year)-$($dte_month)-$($dte_day)-$($stamp).evtx"
         Write-Host "Attempting to clear $log within $($remoteHostLogDirectory)" -ForegroundColor Yellow
-        wevtutil cl $log /bu:$clearedFile | Out-Null
+        if ($targetHost -ieq $env:COMPUTERNAME) {
+           wevtutil cl $log /bu:$clearedFile | Out-Null
+        }
+        else {
+           wevtutil cl $log /bu:$clearedFile /r:$targetHost | Out-Null
+        }
+
+        if ($LASTEXITCODE -eq 0) {
+           $filterResults.Add($clearedFile) | Out-Null
+        }
+        else {
+           Write-Host "wevtutil failed for $log on $targetHost" -ForegroundColor Red
+        }
         $filterResults.Add($clearedFile) | Out-Null
     }
     return $filterResults
