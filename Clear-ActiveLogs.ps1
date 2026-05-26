@@ -23,7 +23,7 @@ param(
 # Function user ActiveDirectory module to get a list of enabled windows hosts in the domain.
 Function Get-Hosts {
     $dc = $env:LOGONSERVER -replace '^\\\\',''
-    $dcSession = New-PSSession -CopmuterName $env:LOGONSERVER -ErrorAction SilentlyContinue
+    $dcSession = New-PSSession -ComputerName $dc -ErrorAction SilentlyContinue
     if ($dcSession -ne $null) {
         Import-Module ActiveDirectory -PSSession $dcSession -ErrorAction Stop
         $hosts = Get-ADComputer -Filter 'OperatingSystem -like "*Windows*" -and Enabled -eq $true' -Properties Name | Select-Object -ExpandProperty Name

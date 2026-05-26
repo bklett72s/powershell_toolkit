@@ -22,10 +22,11 @@ param(
 
 # Function user ActiveDirectory module to get a list of enabled windows hosts in the domain.
 Function Get-Hosts {
-    $dcSession = New-PSSession -CopmuterName $env:LOGONSERVER -ErrorAction SilentlyContinue
+    $dc = $env:LOGONSERVER -replace '^\\\\',''
+    $dcSession = New-PSSession -ComputerName $dc -ErrorAction SilentlyContinue
     if ($dcSession -ne $null) {
         Import-Module ActiveDirectory -PSSession $dcSession -ErrorAction Stop
-        $hosts = Get-ADComputer -Filter 'OperatingSystem -like "*Windows*" AND Enabled -eq $true' -Properties Name | Select-Object -ExpandProperty Name
+        $hosts = Get-ADComputer -Filter 'OperatingSystem -like "*Windows*" -and Enabled -eq $true' -Properties Name | Select-Object -ExpandProperty Name
         
         Return $hosts
     }
@@ -123,8 +124,8 @@ if ((Get-CimInstance Win32_ComputerSystem).PartOfDomain) {
     foreach ($hostname in $hosts) {
         Write-Host "Domain Detected... Looking for Hosts...." -ForegroundColor Green
         Write-Host "Checking $hostname for archived Logs..." -ForegroundColor Blue
-        $remoteHostLogDirectory = $remoteHostLogDirectory.Replace("localhost", $hostname)
-        $returnedResults = Get-ArchiveLogs -remoteHostLogDirectory $remoteHostLogDirectory
+        $remoteHostLogHolder = $remoteHostLogDirectory.Replace("localhost", $hostname)
+        $returnedResults = Get-ArchiveLogs -remoteHostLogDirectory $remoteHostLogHolder
         if ($returnedResults.Count -gt 1) {
            $masterPathCollection.AddRange($returnedResults) | Out-Null
         }
